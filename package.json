@@ -1,0 +1,28 @@
+{
+  "name": "haisin-okoku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --watch --source-maps",
+    "test": "mocha dist/test/test.js"
+  },
+  "keywords": [],
+  "author": "shule517",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015-node6": "^0.3.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "eslint": "^3.2.2",
+    "mocha": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shule517/nodejs-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shule517/nodejs-template/issues"
+  },
+  "homepage": "https://github.com/shule517/nodejs-template#readme"
+}
